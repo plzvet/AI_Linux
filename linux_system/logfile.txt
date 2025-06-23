@@ -1,0 +1,144 @@
+
+chdir(/etc/vim)
+fchdir() to previous dir
+"/etc/vim/vimrc"을(를) 불러들이는 중
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+23 줄: "/usr/share/vim/vim90/debian.vim" 불러들이는 중
+/usr/share/vim/vim90/debian.vim 불러들이기 끝
+/etc/vim/vimrc에서 계속
+/etc/vim/vimrc 불러들이기 끝
+chdir(/home/jk)
+fchdir() to previous dir
+"$HOME/.vimrc"을(를) 불러들이는 중
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+9 줄: "/usr/share/vim/vim90/syntax/syntax.vim" 불러들이는 중
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+19 줄: "/usr/share/vim/vim90/syntax/synload.vim" 불러들이는 중
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+21 줄: "/usr/share/vim/vim90/syntax/syncolor.vim" 불러들이는 중
+chdir(/usr/share/vim/vim90/colors/lists)
+fchdir() to previous dir
+53 줄: "/usr/share/vim/vim90/colors/lists/default.vim" 불러들이는 중
+/usr/share/vim/vim90/colors/lists/default.vim 불러들이기 끝
+/usr/share/vim/vim90/syntax/syncolor.vim에서 계속
+/usr/share/vim/vim90/syntax/syncolor.vim 불러들이기 끝
+/usr/share/vim/vim90/syntax/synload.vim에서 계속
+/usr/share/vim/vim90/syntax/synload.vim 불러들이기 끝
+/usr/share/vim/vim90/syntax/syntax.vim에서 계속
+chdir(/usr/share/vim/vim90)
+fchdir() to previous dir
+25 줄: "/usr/share/vim/vim90/filetype.vim" 불러들이는 중
+'runtimepath'에서 찾을 수 없음: "ftdetect/*.vim"
+/usr/share/vim/vim90/filetype.vim 불러들이기 끝
+/usr/share/vim/vim90/syntax/syntax.vim에서 계속
+FileType Autocommands for "*" 실행중
+자동명령 0verbose exe "set syntax=" . expand("<amatch>")
+
+BufRead Autocommands for "*.c" 실행중
+자동명령 call dist#ft#FTlpc()
+
+chdir(/usr/share/vim/vim90/autoload/dist)
+fchdir() to previous dir
+0 줄: "/usr/share/vim/vim90/autoload/dist/ft.vim" 불러들이는 중
+/usr/share/vim/vim90/autoload/dist/ft.vim 불러들이기 끝
+BufRead Autocommands for "*.c"에서 계속
+FileType Autocommands for "*" 실행중
+자동명령 0verbose exe "set syntax=" . expand("<amatch>")
+
+BufRead Autocommands for "*" 실행중
+자동명령 if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+BufRead Autocommands for "*" 실행중
+자동명령 if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+/usr/share/vim/vim90/syntax/syntax.vim 불러들이기 끝
+/home/jk/.vimrc에서 계속
+$HOME/.vimrc 불러들이기 끝
+'packpath'에서 찾을 수 없음: "pack/*/start/*"
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/getscriptPlugin.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/getscriptPlugin.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/gzip.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/gzip.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/logiPat.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/logiPat.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/manpager.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/manpager.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/matchparen.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/matchparen.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/netrwPlugin.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/netrwPlugin.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/rrhelper.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/rrhelper.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/spellfile.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/spellfile.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/tarPlugin.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/tarPlugin.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/tohtml.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/tohtml.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/vimballPlugin.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/vimballPlugin.vim 불러들이기 끝
+chdir(/usr/share/vim/vim90/plugin)
+fchdir() to previous dir
+"/usr/share/vim/vim90/plugin/zipPlugin.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/plugin/zipPlugin.vim 불러들이기 끝
+'packpath'에서 찾을 수 없음: "pack/*/start/*"
+'runtimepath'에서 찾을 수 없음: "plugin/**/*.vim"
+Reading viminfo file "/home/jk/.viminfo" 인포 oldfiles
+"somefile.c" [새로운]
+Reading viminfo file "/home/jk/.viminfo" 마크
+BufNewFile Autocommands for "*.c" 실행중
+자동명령 call dist#ft#FTlpc()
+
+FileType Autocommands for "*" 실행중
+자동명령 0verbose exe "set syntax=" . expand("<amatch>")
+
+BufNewFile Autocommands for "*" 실행중
+자동명령 if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+BufNewFile Autocommands for "*" 실행중
+자동명령 if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+BufWinEnter Autocommands for "*" 실행중
+자동명령 call s:Highlight_Matching_Pair()
+
+BufEnter Autocommands for "*" 실행중
+자동명령 sil call s:LocalBrowse(expand("<amatch>"))
+
+VimEnter Autocommands for "*" 실행중
+자동명령 sil call s:VimEnter(expand("<amatch>"))
+
+CursorMoved Autocommands for "*" 실행중
+자동명령 call s:Highlight_Matching_Pair()
+
+chdir(/usr/share/vim/vim90/syntax)
+fchdir() to previous dir
+"/usr/share/vim/vim90/syntax/syncolor.vim"을(를) 불러들이는 중
+/usr/share/vim/vim90/syntax/syncolor.vim 불러들이기 끝
+
+Viminfo 파일 "/home/jk/.viminfo"을(를) 쓰는 중

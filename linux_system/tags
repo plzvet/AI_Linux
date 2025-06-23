@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/jk/Work/project/linux_system/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+BUFSIZE	02.file/02.read.c	/^#define BUFSIZE	/;"	d	file:
+INFO	02.file/01.write.c	/^} INFO;$/;"	t	typeref:struct:_INFO	file:
+_INFO	02.file/01.write.c	/^typedef struct _INFO {$/;"	s	file:
+a	04.process/00.process.c	/^int a=10, a2=20;$/;"	v	typeref:typename:int
+a2	04.process/00.process.c	/^int a=10, a2=20;$/;"	v	typeref:typename:int
+age	02.file/01.write.c	/^	int age;$/;"	m	struct:_INFO	typeref:typename:int	file:
+b	04.process/00.process.c	/^int b, b2;$/;"	v	typeref:typename:int
+b2	04.process/00.process.c	/^int b, b2;$/;"	v	typeref:typename:int
+binary	03.signal/00.signalprint.c	/^const char *binary[16] = {$/;"	v	typeref:typename:const char * [16]
+count	03.signal/04.myraise_cnt.c	/^int count = 0;$/;"	v	typeref:typename:int
+f1	04.process/00.process.c	/^int f1(int x){$/;"	f	typeref:typename:int
+f2	04.process/00.process.c	/^int f2(int x){$/;"	f	typeref:typename:int
+handler	03.signal/01.mysignal2.c	/^void handler(int signo){$/;"	f	typeref:typename:void
+handler	03.signal/02.mypause.c	/^static void handler (int signo){$/;"	f	typeref:typename:void	file:
+handler	03.signal/04.myraise.c	/^void handler(int signo){$/;"	f	typeref:typename:void
+handler	03.signal/04.myraise_cnt.c	/^void handler(int signo){$/;"	f	typeref:typename:void
+handler	03.signal/05.setprocmask.c	/^void handler(int signo){$/;"	f	typeref:typename:void
+handler	03.signal/06.mysigsuspend.c	/^static void handler(int signo) { $/;"	f	typeref:typename:void	file:
+handler	03.signal/07.mysigaction.c	/^void handler(int sig){$/;"	f	typeref:typename:void
+handler	03.signal/07.sigaction_hw.c	/^void handler(int sig){$/;"	f	typeref:typename:void
+handler	03.signal/08.sig_hw2.c	/^void handler(int signo){$/;"	f	typeref:typename:void
+handler_int	03.signal/01.mysignal.c	/^void handler_int(int signo){$/;"	f	typeref:typename:void
+handler_quit	03.signal/01.mysignal.c	/^void handler_quit(int signo){$/;"	f	typeref:typename:void
+handler_term	03.signal/01.mysignal.c	/^void handler_term(int signo){$/;"	f	typeref:typename:void
+handler_tstp	03.signal/01.mysignal.c	/^void handler_tstp(int signo){$/;"	f	typeref:typename:void
+height	02.file/01.write.c	/^	float height;$/;"	m	struct:_INFO	typeref:typename:float	file:
+main	02.file/01.write.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	02.file/02.read.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	02.file/05.access.c	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
+main	02.file/remove_group_rw.c	/^int main() {$/;"	f	typeref:typename:int
+main	03.signal/01.mysignal.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	03.signal/01.mysignal2.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	03.signal/02.mypause.c	/^int main (void){$/;"	f	typeref:typename:int
+main	03.signal/03.mykill.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	03.signal/04.myraise.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	03.signal/04.myraise_cnt.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	03.signal/05.setprocmask.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	03.signal/06.mysigsuspend.c	/^int main() { $/;"	f	typeref:typename:int
+main	03.signal/07.mysigaction.c	/^int main(void){$/;"	f	typeref:typename:int
+main	03.signal/07.sigaction_hw.c	/^int main(void){$/;"	f	typeref:typename:int
+main	03.signal/08.sig_hw2.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	04.process/00.process.c	/^int main(){$/;"	f	typeref:typename:int
+main	04.process/01.env_list.c	/^int main(){$/;"	f	typeref:typename:int
+main	04.process/01.mytask.c	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
+main	04.process/03.my_fork.c	/^int main(void){$/;"	f	typeref:typename:int
+main	04.process/env_set_get_unset.c	/^int main(){$/;"	f	typeref:typename:int
+name	02.file/01.write.c	/^	char name[20];$/;"	m	struct:_INFO	typeref:typename:char[20]	file:
+print_byte	03.signal/00.signalprint.c	/^void print_byte(int byte){$/;"	f	typeref:typename:void
+print_sigset_t	03.signal/00.signalprint.c	/^void print_sigset_t(sigset_t *set){$/;"	f	typeref:typename:void
+repeat	03.signal/01.mysignal2.c	/^int repeat = 0;$/;"	v	typeref:typename:int
+repeat_int	03.signal/01.mysignal.c	/^int repeat_int = 0;$/;"	v	typeref:typename:int
+repeat_quit	03.signal/01.mysignal.c	/^int repeat_quit = 0;$/;"	v	typeref:typename:int
+repeat_term	03.signal/01.mysignal.c	/^int repeat_term = 0;$/;"	v	typeref:typename:int
+repeat_tstp	03.signal/01.mysignal.c	/^int repeat_tstp = 0;$/;"	v	typeref:typename:int

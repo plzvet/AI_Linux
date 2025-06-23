@@ -1,0 +1,7 @@
+# 컴파일 결과물
+*.o
+*.ko
+*.mod.c
+*.symvers
+*.order
+

@@ -1,0 +1,1 @@
+savedcmd_/home/pjk/project/linux/mymodule/hello_module/modules.order := {   echo /home/pjk/project/linux/mymodule/hello_module/hello_module.o; :; } > /home/pjk/project/linux/mymodule/hello_module/modules.order

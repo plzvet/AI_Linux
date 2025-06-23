@@ -1,0 +1,1 @@
+savedcmd_/home/pjk/project/linux/mymodule/hello_module/hello_module.mod := printf '%s\n'   hello_module.o | awk '!x[$$0]++ { print("/home/pjk/project/linux/mymodule/hello_module/"$$0) }' > /home/pjk/project/linux/mymodule/hello_module/hello_module.mod

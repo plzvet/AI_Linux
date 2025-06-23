@@ -1,0 +1,1 @@
+savedcmd_/home/pjk/project/linux/mymodule/BH1750/bh1750_module.mod := printf '%s\n'   bh1750_module.o | awk '!x[$$0]++ { print("/home/pjk/project/linux/mymodule/BH1750/"$$0) }' > /home/pjk/project/linux/mymodule/BH1750/bh1750_module.mod

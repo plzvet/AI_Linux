@@ -1,0 +1,1 @@
+savedcmd_/home/pjk/project/linux/mymodule/BH1750/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/pjk/project/linux/mymodule/BH1750/Module.symvers -T /home/pjk/project/linux/mymodule/BH1750/modules.order -i Module.symvers -e 

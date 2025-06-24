@@ -1,0 +1,1 @@
+savedcmd_/home/pjk/project/linux_system/09.device_driver/led/led_control.mod := printf '%s\n'   led_control.o | awk '!x[$$0]++ { print("/home/pjk/project/linux_system/09.device_driver/led/"$$0) }' > /home/pjk/project/linux_system/09.device_driver/led/led_control.mod

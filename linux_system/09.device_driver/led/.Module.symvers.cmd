@@ -1,0 +1,1 @@
+savedcmd_/home/pjk/project/linux_system/09.device_driver/led/Module.symvers :=  scripts/mod/modpost -M        -o /home/pjk/project/linux_system/09.device_driver/led/Module.symvers -T /home/pjk/project/linux_system/09.device_driver/led/modules.order -i Module.symvers -e 
